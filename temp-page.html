@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- Navbar as a link -->
+<div class="container">
+    <!-- <div class="row">
+        <div class="box"> -->
+        <nav class="navbar-custom navbar-expand-sm">
+            <a id="aa1" class="navbar-brand" href="#">WeatherPy Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="land-page.html">WeatherPyHome</a>
+                <a class="nav-item nav-link" href="temp-page.html">Temperature</a>
+                <a class="nav-item nav-link" href="humidity-page.html">Humidity</a>
+                <a class="nav-item nav-link" href="cloudiness-page.html">Cloud Cover</a>
+                <a class="nav-item nav-link" href="windspeed-page.html">Wind Speed</a>
+                <a class="nav-item nav-link" href="data-page.html">City Data</a>
+            </div>
+            </div>
+        </nav>
+        </div>
+    </div>
+</div><br><br>
+
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Temperature vs Latitude</h2><br>
+            </div>
+        </div><br>
+
+        <div class="col-lg-12 text-center">
+            <img id="b1" src="Resources/assets/images/Fig1.png"
+                            height=600px
+                            />
+            </div><br>
+
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+
+            <div class="col-lg-10">
+                <p>An often noted weather assumption is that latitudes closest to the equator have higher maximum temperatures compared to countries with higher latitudes.
+                    The WeatherPy data set can specifically address this assumption by correlating the latitudes of 557 random cities with 
+                    maximum temperatures for a specific date. The use of 11/11/2019, for example, represents winter in the northern hemisphere and summer in
+                    the Southern Hemisphere. We would expect the countries with southern latitudes to have higher temperatures than the countries with northern latitudes, and
+                    the latitudes closest to the equator to have the highest maximum temperatures. These predictions were corroborated by the
+                    WeatherPy data, which shows significantly higher maximum temperatures as latitude approaches the equator (Latitude=0). Maximum temperatures
+                    in the Southern Hemisphere (summer) were also observed to be elevated compared to maximum temperatures in the Northern
+                    Hemisphere (winter). Future correlative experiments should consider dates where summer and winter are inverted compared to these
+                    data.
+                </p>
+            </div>
+
+            <div class="col-lg-1">
+            </div>  
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+</html>
