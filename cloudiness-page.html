@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- Navbar as a link -->
+<div class="container">
+    <!-- <div class="row">
+        <div class="box"> -->
+        <nav class="navbar-custom navbar-expand-sm">
+            <a id="aa1" class="navbar-brand" href="#">WeatherPy Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="land-page.html">Home</a>
+                <a class="nav-item nav-link" href="temp-page.html">Temperature</a>
+                <a class="nav-item nav-link" href="humidity-page.html">Humidity</a>
+                <a class="nav-item nav-link" href="cloudiness-page.html">Cloud Cover</a>
+                <a class="nav-item nav-link" href="windspeed-page.html">Wind Speed</a>
+                <a class="nav-item nav-link" href="data-page.html">City Data</a>
+            </div>
+            </div>
+        </nav>
+        </div>
+    </div>
+</div><br><br>
+
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Cloud Cover vs Latitude</h2><br>
+            </div>
+        </div><br>
+
+        <div class="col-lg-12 text-center">
+            <img id="b1" src="Resources/assets/images/Fig3.png"
+                            height=600px
+                            />
+            </div><br>
+
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+
+            <div class="col-lg-10">
+                <p>Another weather indicator is the relative cloud cover, as measured by the percent coverage by clouds at a geographical location.
+                    It is well documented that tropical regions have higher annual rainfall, and that the majority of tropical locations
+                    are closer to the equator. However, the assumption that this would correlate with cloud coverage is not supported by the
+                    WeatherPy data. In fact, there may be a small correlation to higher humidity at higher positive and negative latitudes, but no
+                    such correlation is observable in the cloud cover data. An interesting observation is the linear clustering of data points at 0%,
+                    20%, 40%, 75%, and 100% relative cloud cover. The reasons for this clustering are not apparent in the data, but may be related
+                    to the subjective nature of defining "relative cloud coverage" by meteorologists. 
+                </p>
+            </div>
+
+            <div class="col-lg-1">
+            </div>
+
+            
+        </div>
+
+        
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
